@@ -1,3 +1,11 @@
+/**
+ * Log a message to the console that the Service worker is registered
+ * */
+console.log('Service Worker: Registered');
+
+/**
+ * create a variable that will hold all our cache files
+ * */
 const cacheName = 'v1';
 const cacheFiles = [
     '/',
