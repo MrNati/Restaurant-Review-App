@@ -148,9 +148,10 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
  */
 createReviewHTML = (review) => {
   const li = document.createElement('li');
+  li.tabIndex = '10';
   const name = document.createElement('p');
   name.innerHTML = review.name;
-  li.appendChild(name);
+  li.appendChild(name);             
 
   const date = document.createElement('p');
   date.innerHTML = review.date;
