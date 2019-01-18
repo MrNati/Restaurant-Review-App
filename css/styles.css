@@ -218,7 +218,7 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: 69%;
   position: fixed;
   right: 0;
   top: 80px;
@@ -228,11 +228,6 @@ nav h1 a {
   background-color: #ccc;
   height: 100%;
   width: 100%;
-}
-.inside #footer {
-  bottom: 0;
-  position: absolute;
-  width: 50%;
 }
 #restaurant-name {
   color: #f18200;
@@ -301,7 +296,7 @@ nav h1 a {
   color: #666;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1205px) {
   .inside #maincontent {
     display: flex;
     flex-wrap: wrap;
@@ -322,9 +317,5 @@ nav h1 a {
   }
   .leaflet-control-zoom.leaflet-bar.leaflet-control {
     margin-top: 4rem;
-  }
-  .inside #footer {
-    width: 100%;
-    padding: 20px;
   }
 }
